@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CRSEX Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="gate">
+    <h1>CRSEX Access</h1>
+    <form id="leadForm">
+      <input name="name" placeholder="Name" required><br>
+      <input name="email" placeholder="Email" required><br>
+      <select name="tradingSkill"><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select><br>
+      <textarea name="goals" placeholder="Your goals"></textarea><br>
+      <button type="submit">Submit & Enter</button>
+    </form>
+    <div id="formMsg"></div>
+  </div>
+  <div id="site" style="display:none;">
+    <h2>Welcome to CRSEX</h2>
+    <p>Full site content unlocked...</p>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
